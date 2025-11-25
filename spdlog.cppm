@@ -105,6 +105,7 @@ export namespace spdlog
     }
     using ::spdlog::level_t;
     using ::spdlog::log;
+    using ::spdlog::logger;
     using ::spdlog::log_clock;
     using ::spdlog::mdc;
     using ::spdlog::memory_buf_t;
