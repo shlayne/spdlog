@@ -29,6 +29,7 @@ endif()
 # ---------------------------------------------------------------------------------------
 # Compiler config
 # ---------------------------------------------------------------------------------------
+option(SPDLOG_USE_STD_FORMAT "Use std::format instead of bundling fmt::format" ON)
 if(SPDLOG_USE_STD_FORMAT)
     set(CMAKE_CXX_STANDARD 20)
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
