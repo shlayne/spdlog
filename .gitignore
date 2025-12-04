@@ -85,10 +85,10 @@ cmake-build-*/
 *.db-wal
 *.opendb
 *.db-shm
-#*.vcxproj
+*.vcxproj
 *.tcl
 *.user
-#*.sln
+*.sln
 
 # macos
 *.DS_store
@@ -96,6 +96,3 @@ cmake-build-*/
 /.vs
 /out/build
 /CMakeSettings.json
-
-_bin/
-_bin-int/
